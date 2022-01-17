@@ -1,0 +1,90 @@
+
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" sizes="16x5" href="https://media.springernature.com/w580h326/nature-cms/uploads/collections/Networks-Collection-img-final-f2c265a59e457f48645e2aa3ff90e942.jpg"/>
+        <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.min.css">
+        <link rel="stylesheet" href="Contact.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+    </head>
+
+
+    
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Adam Belayachi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/Accueil">Accueil</a>
+          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Portfolio">Portfolio</a>
+            </li>
+          <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="/CV">CV</a>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    <form class="AVAST_PAM_signupform AVAST_PAM_loginform">
+      <fieldset>
+        <legend>Contact</legend>
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="abelayachi27@gmail.com">
+          </div>
+          <label for="staticEmail" class="col-sm-2 col-form-label">Phone number</label>
+          <div class="col-sm-10">
+            <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="+33 7 83 97 32 84">
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="form-label mt-4">Subject</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1" class="form-label mt-4">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="form-label mt-4">Message</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+      </fieldset>
+      <div class="bouton">
+      <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+    <div class="copyright">
+      <h6 class="text-info">Tous droits réservés ©</h6>
+    </div>
+  </body>
+</html>
+{% endblock %}

@@ -1,0 +1,91 @@
+
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>CV</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" sizes="16x5" href="https://media.springernature.com/w580h326/nature-cms/uploads/collections/Networks-Collection-img-final-f2c265a59e457f48645e2aa3ff90e942.jpg"/>
+        <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.min.css">
+        <link rel="stylesheet" href="CV.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+    </head>
+
+
+    
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Adam Belayachi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/Accueil">Accueil</a>
+          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Portfolio">Portfolio</a>
+            </li>
+          <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link" href="/CV.">CV</a>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    <div class="cv">
+      <h1>CV</h1>
+    </div>
+    <div class="etude">
+      <h2>Poursuite d'études souhaitée</h2>
+      <p>Master de cybersécurité.</p>
+    </div>
+    <div class="taf">
+      <h2>Métier envisagé</h2>
+      <p>Responsable de la sécurité des systèmes d'information à la fin de mes études</p>
+    </div>
+    <div class="card border-primary mb-3" style="max-width: 20rem;">
+      <div class="card-header">Formations</div>
+      <div class="card-body">
+        <h4 class="card-title">BUT Réseaux et Télécommunications</h4>
+        <p class="card-text">- J'étudie depuis 2021 mon BUT à l'IUT Jean-Monnet de Roanne.</p>
+        <p class="card-text">- MOOC de l'ANSSI</p>
+      </div>
+    </div>
+    <div class="card border-secondary mb-3" style="max-width: 20rem;">
+      <div class="card-header">Expériences Professionnelles</div>
+      <div class="card-body">
+        <h4 class="card-title">Câblage internet</h4>
+        <p class="card-text">Mon stage de 3ème s'est déroulé avec un professionnel dans le câblage internet et fibre</p>
+      </div>
+    </div>
+    <div class="card border-success mb-3" style="max-width: 20rem;">
+      <div class="card-header">Compétences</div>
+      <div class="card-body">
+        <h4 class="card-title">Informatique & Langues</h4>
+        <p class="card-text">- Niveau C1 (Bilingue) en Anglais</p>
+        <p class="card-text">- 2 ans d'expérience en Python</p>
+      </div>
+    </div>
+    <div class="cvimg">
+      <img src="https://media.discordapp.net/attachments/820629990785286160/932285835183804446/unknown.png?width=459&height=662" alt="cv">
+    </div>
+    <div class="copyright">
+      <h6 class="text-info">Tous droits réservés ©</h6>
+    </div>
+    </body>
+</html>
+{% endblock %}
